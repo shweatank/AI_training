@@ -1,0 +1,15 @@
+{
+    "configurations": [
+        {
+            "name": "stm32f407-blink",
+            "includePath": [
+                "${workspaceFolder}/stm32f407_blink/src",
+                "${workspaceFolder}/src"
+            ],
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "linux-gcc-arm"
+        }
+    ],
+    "version": 4
+}

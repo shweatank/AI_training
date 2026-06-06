@@ -1,0 +1,17 @@
+# Build output
+build/
+
+# Host unit-test binaries
+test/test_gpio
+test/test_blink
+
+# Compiled objects / images
+*.o
+*.elf
+*.bin
+*.hex
+*.map
+
+# Editor / OS cruft
+*.swp
+.DS_Store
