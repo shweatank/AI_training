@@ -91,7 +91,7 @@ LOAD /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp
 END GROUP
                 0x20020000                        _estack = (ORIGIN (RAM) + LENGTH (RAM))
 
-.text           0x08000000      0x4c0
+.text           0x08000000      0x4d8
                 0x08000000                        . = ALIGN (0x4)
  *(.isr_vector)
  .isr_vector    0x08000000       0x40 build/startup.o
@@ -114,65 +114,65 @@ END GROUP
                 0x08000218                SVC_Handler
                 0x08000218                BusFault_Handler
  .text.Reset_Handler
-                0x0800021c       0x68 build/startup.o
+                0x0800021c       0x80 build/startup.o
                 0x0800021c                Reset_Handler
  .text._ZN9stm32f4074Gpio2atENS_4PortE
-                0x08000284       0xd8 build/gpio.o
-                0x08000284                stm32f407::Gpio::at(stm32f407::Port)
+                0x0800029c       0xd8 build/gpio.o
+                0x0800029c                stm32f407::Gpio::at(stm32f407::Port)
  .text._ZN9stm32f4074Gpio9configureENS_3PinENS_4ModeENS_5SpeedENS_4PullENS_10OutputTypeE
-                0x0800035c       0x58 build/gpio.o
-                0x0800035c                stm32f407::Gpio::configure(stm32f407::Pin, stm32f407::Mode, stm32f407::Speed, stm32f407::Pull, stm32f407::OutputType)
+                0x08000374       0x58 build/gpio.o
+                0x08000374                stm32f407::Gpio::configure(stm32f407::Pin, stm32f407::Mode, stm32f407::Speed, stm32f407::Pull, stm32f407::OutputType)
  .text._ZN9stm32f4074Gpio5writeENS_3PinEb
-                0x080003b4       0x10 build/gpio.o
-                0x080003b4                stm32f407::Gpio::write(stm32f407::Pin, bool)
+                0x080003cc       0x10 build/gpio.o
+                0x080003cc                stm32f407::Gpio::write(stm32f407::Pin, bool)
  .text._ZN9stm32f4074Gpio6toggleENS_3PinE
-                0x080003c4       0x14 build/gpio.o
-                0x080003c4                stm32f407::Gpio::toggle(stm32f407::Pin)
+                0x080003dc       0x14 build/gpio.o
+                0x080003dc                stm32f407::Gpio::toggle(stm32f407::Pin)
  .text.startup.main
-                0x080003d8       0xe4 build/main.o
-                0x080003d8                main
+                0x080003f0       0xe4 build/main.o
+                0x080003f0                main
  *(.rodata)
- .rodata        0x080004bc        0x4 build/main.o
+ .rodata        0x080004d4        0x4 build/main.o
  *(.rodata*)
-                0x080004c0                        . = ALIGN (0x4)
+                0x080004d8                        . = ALIGN (0x4)
 
-.glue_7         0x080004c0        0x0
- .glue_7        0x080004c0        0x0 linker stubs
+.glue_7         0x080004d8        0x0
+ .glue_7        0x080004d8        0x0 linker stubs
 
-.glue_7t        0x080004c0        0x0
- .glue_7t       0x080004c0        0x0 linker stubs
+.glue_7t        0x080004d8        0x0
+ .glue_7t       0x080004d8        0x0 linker stubs
 
-.vfp11_veneer   0x080004c0        0x0
- .vfp11_veneer  0x080004c0        0x0 linker stubs
+.vfp11_veneer   0x080004d8        0x0
+ .vfp11_veneer  0x080004d8        0x0 linker stubs
 
-.v4_bx          0x080004c0        0x0
- .v4_bx         0x080004c0        0x0 linker stubs
+.v4_bx          0x080004d8        0x0
+ .v4_bx         0x080004d8        0x0 linker stubs
 
-.iplt           0x080004c0        0x0
- .iplt          0x080004c0        0x0 build/startup.o
+.iplt           0x080004d8        0x0
+ .iplt          0x080004d8        0x0 build/startup.o
 
-.rel.dyn        0x080004c0        0x0
- .rel.iplt      0x080004c0        0x0 build/startup.o
+.rel.dyn        0x080004d8        0x0
+ .rel.iplt      0x080004d8        0x0 build/startup.o
 
-.ARM.exidx      0x080004c0        0x8
- .ARM.exidx     0x080004c0        0x8 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-memcpy.o)
+.ARM.exidx      0x080004d8        0x8
+ .ARM.exidx     0x080004d8        0x8 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-memcpy.o)
 
-.init_array     0x080004c8        0x0
-                0x080004c8                        . = ALIGN (0x4)
-                0x080004c8                        __init_array_start = .
+.init_array     0x080004e0        0x0
+                0x080004e0                        . = ALIGN (0x4)
+                0x080004e0                        __init_array_start = .
  *(SORT_BY_NAME(.init_array.*))
  *(.init_array)
-                0x080004c8                        __init_array_end = .
-                0x080004c8                        . = ALIGN (0x4)
+                0x080004e0                        __init_array_end = .
+                0x080004e0                        . = ALIGN (0x4)
 
-.fini_array     0x080004c8        0x0
-                0x080004c8                        . = ALIGN (0x4)
+.fini_array     0x080004e0        0x0
+                0x080004e0                        . = ALIGN (0x4)
  *(.fini_array)
  *(SORT_BY_NAME(.fini_array.*))
-                0x080004c8                        . = ALIGN (0x4)
-                0x080004c8                        _sidata = LOADADDR (.data)
+                0x080004e0                        . = ALIGN (0x4)
+                0x080004e0                        _sidata = LOADADDR (.data)
 
-.data           0x20000000        0x0 load address 0x080004c8
+.data           0x20000000        0x0 load address 0x080004e0
                 0x20000000                        . = ALIGN (0x4)
                 0x20000000                        _sdata = .
  *(.data)
@@ -180,10 +180,10 @@ END GROUP
                 0x20000000                        . = ALIGN (0x4)
                 0x20000000                        _edata = .
 
-.igot.plt       0x20000000        0x0 load address 0x080004c8
+.igot.plt       0x20000000        0x0 load address 0x080004e0
  .igot.plt      0x20000000        0x0 build/startup.o
 
-.bss            0x20000000        0x0 load address 0x080004c8
+.bss            0x20000000        0x0 load address 0x080004e0
                 0x20000000                        . = ALIGN (0x4)
                 0x20000000                        _sbss = .
  *(.bss)
@@ -200,19 +200,19 @@ END GROUP
 OUTPUT(build/led_blink.elf elf32-littlearm)
 LOAD linker stubs
 
-.debug_info     0x00000000     0x17b8
- .debug_info    0x00000000      0x3c4 build/startup.o
- .debug_info    0x000003c4      0x9a7 build/gpio.o
- .debug_info    0x00000d6b      0x8e5 build/main.o
- .debug_info    0x00001650      0x135 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-memset.o)
- .debug_info    0x00001785       0x33 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-memcpy.o)
+.debug_info     0x00000000     0x17d8
+ .debug_info    0x00000000      0x3e4 build/startup.o
+ .debug_info    0x000003e4      0x9a7 build/gpio.o
+ .debug_info    0x00000d8b      0x8e5 build/main.o
+ .debug_info    0x00001670      0x135 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-memset.o)
+ .debug_info    0x000017a5       0x33 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-memcpy.o)
 
-.debug_abbrev   0x00000000      0x945
- .debug_abbrev  0x00000000      0x148 build/startup.o
- .debug_abbrev  0x00000148      0x3c0 build/gpio.o
- .debug_abbrev  0x00000508      0x35e build/main.o
- .debug_abbrev  0x00000866       0xb7 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-memset.o)
- .debug_abbrev  0x0000091d       0x28 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-memcpy.o)
+.debug_abbrev   0x00000000      0x95d
+ .debug_abbrev  0x00000000      0x160 build/startup.o
+ .debug_abbrev  0x00000160      0x3c0 build/gpio.o
+ .debug_abbrev  0x00000520      0x35e build/main.o
+ .debug_abbrev  0x0000087e       0xb7 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-memset.o)
+ .debug_abbrev  0x00000935       0x28 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-memcpy.o)
 
 .debug_loclists
                 0x00000000      0x5c0
@@ -238,13 +238,13 @@ LOAD linker stubs
                 0x000000a8       0x20 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-memcpy.o)
 
 .debug_rnglists
-                0x00000000       0xc8
+                0x00000000       0xc9
  .debug_rnglists
-                0x00000000       0x19 build/startup.o
+                0x00000000       0x1a build/startup.o
  .debug_rnglists
-                0x00000019       0x74 build/gpio.o
+                0x0000001a       0x74 build/gpio.o
  .debug_rnglists
-                0x0000008d       0x3b build/main.o
+                0x0000008e       0x3b build/main.o
 
 .debug_macro    0x00000000     0x17de
  .debug_macro   0x00000000       0x5c build/startup.o
@@ -258,20 +258,20 @@ LOAD linker stubs
  .debug_macro   0x0000170a       0x6a build/gpio.o
  .debug_macro   0x00001774       0x6a build/main.o
 
-.debug_line     0x00000000      0xb73
- .debug_line    0x00000000      0x1b2 build/startup.o
- .debug_line    0x000001b2      0x45c build/gpio.o
- .debug_line    0x0000060e      0x2f6 build/main.o
- .debug_line    0x00000904      0x1b6 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-memset.o)
- .debug_line    0x00000aba       0xb9 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-memcpy.o)
+.debug_line     0x00000000      0xb80
+ .debug_line    0x00000000      0x1bf build/startup.o
+ .debug_line    0x000001bf      0x45c build/gpio.o
+ .debug_line    0x0000061b      0x2f6 build/main.o
+ .debug_line    0x00000911      0x1b6 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-memset.o)
+ .debug_line    0x00000ac7       0xb9 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-memcpy.o)
 
-.debug_str      0x00000000     0x69d4
- .debug_str     0x00000000     0x69d4 build/startup.o
-                               0x66ad (size before relaxing)
- .debug_str     0x000069d4     0x6936 build/gpio.o
- .debug_str     0x000069d4     0x6864 build/main.o
- .debug_str     0x000069d4      0x1ad /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-memset.o)
- .debug_str     0x000069d4       0xac /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-memcpy.o)
+.debug_str      0x00000000     0x69da
+ .debug_str     0x00000000     0x69da build/startup.o
+                               0x66b3 (size before relaxing)
+ .debug_str     0x000069da     0x6936 build/gpio.o
+ .debug_str     0x000069da     0x6864 build/main.o
+ .debug_str     0x000069da      0x1ad /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-memset.o)
+ .debug_str     0x000069da       0xac /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-memcpy.o)
 
 .comment        0x00000000       0x26
  .comment       0x00000000       0x26 build/startup.o

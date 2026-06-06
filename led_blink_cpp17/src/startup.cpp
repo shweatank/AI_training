@@ -61,6 +61,16 @@ const VectorEntry g_vectors[] = {
 };
 
 extern "C" void Reset_Handler() {
+    // Enable the FPU before anything else. The firmware is built with the
+    // hard-float ABI (-mfloat-abi=hard), but CP10/CP11 are disabled out of
+    // reset; the first FP instruction would otherwise trigger a HardFault.
+    // CPACR @ 0xE000ED88: set CP10 and CP11 to "full access" (0b11 each).
+    volatile std::uint32_t* const CPACR =
+        reinterpret_cast<volatile std::uint32_t*>(0xE000ED88U);
+    *CPACR |= (0xFU << 20);
+    __asm volatile("dsb");
+    __asm volatile("isb");
+
     // Copy .data from FLASH to RAM.
     std::uint32_t* src = &_sidata;
     std::uint32_t* dst = &_sdata;

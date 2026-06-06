@@ -40,7 +40,6 @@ TEST(GpioEnums, SpeedPullTypeEncoding) {
     EXPECT_EQ(static_cast<uint8_t>(Pull::Down), 0b10);
     EXPECT_EQ(static_cast<uint8_t>(OutputType::OpenDrain), 1);
 }
-
 TEST(GpioEnums, PinAndPortValues) {
     EXPECT_EQ(static_cast<uint8_t>(Pin::P12), 12);
     EXPECT_EQ(static_cast<uint8_t>(Port::D), 3);

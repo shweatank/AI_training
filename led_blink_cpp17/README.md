@@ -1,5 +1,21 @@
 # STM32F407 LED Blink — Embedded C++17
 
+## Original Request (Prompt)
+
+> create a separe folder and generate embedded c++17 standard using stm32f407
+> goio_driver led blinking with unitest cases and makefile also ...attach to my
+> diretory and compile run and flash into the board stm32f407 i am connected the
+> board to my pc.
+
+### Follow-up requests
+> - dump my code if any bugs, display those, then correct the bugs and again
+>   flash my corrected version code and execute on board.
+> - check unit test cases how many failed and how many passed and display all the
+>   bugs where test cases failed.
+> - add readme file which consists of my given prompt at first.
+
+---
+
 A self-contained GPIO driver + LED-blinking demo for the STM32F407
 (STM32F4-Discovery), written in **embedded C++17**, with **host unit tests**
 (GoogleTest) and a **Makefile** for cross-compiling and flashing via ST-Link.
