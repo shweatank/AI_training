@@ -1,0 +1,6 @@
+/home/dell/STM32F407_Drivers/tests/build_tests/CMakeFiles/gpio_test.dir
+/home/dell/STM32F407_Drivers/tests/build_tests/CMakeFiles/uart_test.dir
+/home/dell/STM32F407_Drivers/tests/build_tests/CMakeFiles/run_tests.dir
+/home/dell/STM32F407_Drivers/tests/build_tests/CMakeFiles/test.dir
+/home/dell/STM32F407_Drivers/tests/build_tests/CMakeFiles/edit_cache.dir
+/home/dell/STM32F407_Drivers/tests/build_tests/CMakeFiles/rebuild_cache.dir

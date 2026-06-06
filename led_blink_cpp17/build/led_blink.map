@@ -1,0 +1,305 @@
+Archive member included to satisfy reference by file (symbol)
+
+/usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-memset.o)
+                              build/startup.o (memset)
+/usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-memcpy.o)
+                              build/startup.o (memcpy)
+
+Discarded input sections
+
+ .group         0x00000000        0xc build/startup.o
+ .group         0x00000000        0xc build/startup.o
+ .group         0x00000000        0xc build/startup.o
+ .group         0x00000000        0xc build/startup.o
+ .group         0x00000000        0xc build/startup.o
+ .group         0x00000000        0xc build/startup.o
+ .group         0x00000000        0xc build/startup.o
+ .text          0x00000000        0x0 build/startup.o
+ .data          0x00000000        0x0 build/startup.o
+ .bss           0x00000000        0x0 build/startup.o
+ .group         0x00000000        0xc build/gpio.o
+ .group         0x00000000        0xc build/gpio.o
+ .group         0x00000000        0xc build/gpio.o
+ .group         0x00000000        0xc build/gpio.o
+ .group         0x00000000        0xc build/gpio.o
+ .group         0x00000000        0xc build/gpio.o
+ .group         0x00000000        0xc build/gpio.o
+ .text          0x00000000        0x0 build/gpio.o
+ .data          0x00000000        0x0 build/gpio.o
+ .bss           0x00000000        0x0 build/gpio.o
+ .text._ZNK9stm32f4074Gpio4readENS_3PinE
+                0x00000000        0xc build/gpio.o
+ .debug_macro   0x00000000      0xc16 build/gpio.o
+ .debug_macro   0x00000000      0x1f2 build/gpio.o
+ .debug_macro   0x00000000       0x10 build/gpio.o
+ .debug_macro   0x00000000       0xc8 build/gpio.o
+ .debug_macro   0x00000000      0x103 build/gpio.o
+ .debug_macro   0x00000000      0x37d build/gpio.o
+ .debug_macro   0x00000000      0x34e build/gpio.o
+ .group         0x00000000        0xc build/main.o
+ .group         0x00000000        0xc build/main.o
+ .group         0x00000000        0xc build/main.o
+ .group         0x00000000        0xc build/main.o
+ .group         0x00000000        0xc build/main.o
+ .group         0x00000000        0xc build/main.o
+ .group         0x00000000        0xc build/main.o
+ .text          0x00000000        0x0 build/main.o
+ .data          0x00000000        0x0 build/main.o
+ .bss           0x00000000        0x0 build/main.o
+ .debug_macro   0x00000000      0xc16 build/main.o
+ .debug_macro   0x00000000      0x1f2 build/main.o
+ .debug_macro   0x00000000       0x10 build/main.o
+ .debug_macro   0x00000000       0xc8 build/main.o
+ .debug_macro   0x00000000      0x103 build/main.o
+ .debug_macro   0x00000000      0x37d build/main.o
+ .debug_macro   0x00000000      0x34e build/main.o
+ .data          0x00000000        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-memset.o)
+ .bss           0x00000000        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-memset.o)
+ .data          0x00000000        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-memcpy.o)
+ .bss           0x00000000        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-memcpy.o)
+ .ARM.extab     0x00000000        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-memcpy.o)
+ .eh_frame      0x00000000       0x2c /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-memcpy.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+FLASH            0x08000000         0x00100000         xr
+RAM              0x20000000         0x00020000         xrw
+CCM              0x10000000         0x00010000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/startup.o
+LOAD build/gpio.o
+LOAD build/main.o
+LOAD /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
+LOAD /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+START GROUP
+LOAD /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a
+END GROUP
+START GROUP
+LOAD /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a
+LOAD /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a
+END GROUP
+START GROUP
+LOAD /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a
+LOAD /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a
+END GROUP
+                0x20020000                        _estack = (ORIGIN (RAM) + LENGTH (RAM))
+
+.text           0x08000000      0x4c0
+                0x08000000                        . = ALIGN (0x4)
+ *(.isr_vector)
+ .isr_vector    0x08000000       0x40 build/startup.o
+ *(.text)
+ .text          0x08000040       0xa4 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-memset.o)
+                0x08000040                memset
+ .text          0x080000e4      0x134 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-memcpy.o)
+                0x080000e4                memcpy
+ *(.text*)
+ .text.Default_Handler
+                0x08000218        0x4 build/startup.o
+                0x08000218                DebugMon_Handler
+                0x08000218                HardFault_Handler
+                0x08000218                SysTick_Handler
+                0x08000218                PendSV_Handler
+                0x08000218                NMI_Handler
+                0x08000218                UsageFault_Handler
+                0x08000218                Default_Handler
+                0x08000218                MemManage_Handler
+                0x08000218                SVC_Handler
+                0x08000218                BusFault_Handler
+ .text.Reset_Handler
+                0x0800021c       0x68 build/startup.o
+                0x0800021c                Reset_Handler
+ .text._ZN9stm32f4074Gpio2atENS_4PortE
+                0x08000284       0xd8 build/gpio.o
+                0x08000284                stm32f407::Gpio::at(stm32f407::Port)
+ .text._ZN9stm32f4074Gpio9configureENS_3PinENS_4ModeENS_5SpeedENS_4PullENS_10OutputTypeE
+                0x0800035c       0x58 build/gpio.o
+                0x0800035c                stm32f407::Gpio::configure(stm32f407::Pin, stm32f407::Mode, stm32f407::Speed, stm32f407::Pull, stm32f407::OutputType)
+ .text._ZN9stm32f4074Gpio5writeENS_3PinEb
+                0x080003b4       0x10 build/gpio.o
+                0x080003b4                stm32f407::Gpio::write(stm32f407::Pin, bool)
+ .text._ZN9stm32f4074Gpio6toggleENS_3PinE
+                0x080003c4       0x14 build/gpio.o
+                0x080003c4                stm32f407::Gpio::toggle(stm32f407::Pin)
+ .text.startup.main
+                0x080003d8       0xe4 build/main.o
+                0x080003d8                main
+ *(.rodata)
+ .rodata        0x080004bc        0x4 build/main.o
+ *(.rodata*)
+                0x080004c0                        . = ALIGN (0x4)
+
+.glue_7         0x080004c0        0x0
+ .glue_7        0x080004c0        0x0 linker stubs
+
+.glue_7t        0x080004c0        0x0
+ .glue_7t       0x080004c0        0x0 linker stubs
+
+.vfp11_veneer   0x080004c0        0x0
+ .vfp11_veneer  0x080004c0        0x0 linker stubs
+
+.v4_bx          0x080004c0        0x0
+ .v4_bx         0x080004c0        0x0 linker stubs
+
+.iplt           0x080004c0        0x0
+ .iplt          0x080004c0        0x0 build/startup.o
+
+.rel.dyn        0x080004c0        0x0
+ .rel.iplt      0x080004c0        0x0 build/startup.o
+
+.ARM.exidx      0x080004c0        0x8
+ .ARM.exidx     0x080004c0        0x8 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-memcpy.o)
+
+.init_array     0x080004c8        0x0
+                0x080004c8                        . = ALIGN (0x4)
+                0x080004c8                        __init_array_start = .
+ *(SORT_BY_NAME(.init_array.*))
+ *(.init_array)
+                0x080004c8                        __init_array_end = .
+                0x080004c8                        . = ALIGN (0x4)
+
+.fini_array     0x080004c8        0x0
+                0x080004c8                        . = ALIGN (0x4)
+ *(.fini_array)
+ *(SORT_BY_NAME(.fini_array.*))
+                0x080004c8                        . = ALIGN (0x4)
+                0x080004c8                        _sidata = LOADADDR (.data)
+
+.data           0x20000000        0x0 load address 0x080004c8
+                0x20000000                        . = ALIGN (0x4)
+                0x20000000                        _sdata = .
+ *(.data)
+ *(.data*)
+                0x20000000                        . = ALIGN (0x4)
+                0x20000000                        _edata = .
+
+.igot.plt       0x20000000        0x0 load address 0x080004c8
+ .igot.plt      0x20000000        0x0 build/startup.o
+
+.bss            0x20000000        0x0 load address 0x080004c8
+                0x20000000                        . = ALIGN (0x4)
+                0x20000000                        _sbss = .
+ *(.bss)
+ *(.bss*)
+ *(COMMON)
+                0x20000000                        . = ALIGN (0x4)
+                0x20000000                        _ebss = .
+
+.ccmram         0x10000000        0x0
+                0x10000000                        . = ALIGN (0x4)
+ *(.ccmram)
+ *(.ccmram*)
+                0x10000000                        . = ALIGN (0x4)
+OUTPUT(build/led_blink.elf elf32-littlearm)
+LOAD linker stubs
+
+.debug_info     0x00000000     0x17b8
+ .debug_info    0x00000000      0x3c4 build/startup.o
+ .debug_info    0x000003c4      0x9a7 build/gpio.o
+ .debug_info    0x00000d6b      0x8e5 build/main.o
+ .debug_info    0x00001650      0x135 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-memset.o)
+ .debug_info    0x00001785       0x33 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-memcpy.o)
+
+.debug_abbrev   0x00000000      0x945
+ .debug_abbrev  0x00000000      0x148 build/startup.o
+ .debug_abbrev  0x00000148      0x3c0 build/gpio.o
+ .debug_abbrev  0x00000508      0x35e build/main.o
+ .debug_abbrev  0x00000866       0xb7 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-memset.o)
+ .debug_abbrev  0x0000091d       0x28 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-memcpy.o)
+
+.debug_loclists
+                0x00000000      0x5c0
+ .debug_loclists
+                0x00000000       0x29 build/startup.o
+ .debug_loclists
+                0x00000029      0x28e build/gpio.o
+ .debug_loclists
+                0x000002b7      0x147 build/main.o
+ .debug_loclists
+                0x000003fe      0x1c2 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-memset.o)
+
+.debug_aranges  0x00000000       0xc8
+ .debug_aranges
+                0x00000000       0x28 build/startup.o
+ .debug_aranges
+                0x00000028       0x40 build/gpio.o
+ .debug_aranges
+                0x00000068       0x20 build/main.o
+ .debug_aranges
+                0x00000088       0x20 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-memset.o)
+ .debug_aranges
+                0x000000a8       0x20 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-memcpy.o)
+
+.debug_rnglists
+                0x00000000       0xc8
+ .debug_rnglists
+                0x00000000       0x19 build/startup.o
+ .debug_rnglists
+                0x00000019       0x74 build/gpio.o
+ .debug_rnglists
+                0x0000008d       0x3b build/main.o
+
+.debug_macro    0x00000000     0x17de
+ .debug_macro   0x00000000       0x5c build/startup.o
+ .debug_macro   0x0000005c      0xc16 build/startup.o
+ .debug_macro   0x00000c72      0x1f2 build/startup.o
+ .debug_macro   0x00000e64       0x10 build/startup.o
+ .debug_macro   0x00000e74       0xc8 build/startup.o
+ .debug_macro   0x00000f3c      0x103 build/startup.o
+ .debug_macro   0x0000103f      0x37d build/startup.o
+ .debug_macro   0x000013bc      0x34e build/startup.o
+ .debug_macro   0x0000170a       0x6a build/gpio.o
+ .debug_macro   0x00001774       0x6a build/main.o
+
+.debug_line     0x00000000      0xb73
+ .debug_line    0x00000000      0x1b2 build/startup.o
+ .debug_line    0x000001b2      0x45c build/gpio.o
+ .debug_line    0x0000060e      0x2f6 build/main.o
+ .debug_line    0x00000904      0x1b6 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-memset.o)
+ .debug_line    0x00000aba       0xb9 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-memcpy.o)
+
+.debug_str      0x00000000     0x69d4
+ .debug_str     0x00000000     0x69d4 build/startup.o
+                               0x66ad (size before relaxing)
+ .debug_str     0x000069d4     0x6936 build/gpio.o
+ .debug_str     0x000069d4     0x6864 build/main.o
+ .debug_str     0x000069d4      0x1ad /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-memset.o)
+ .debug_str     0x000069d4       0xac /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-memcpy.o)
+
+.comment        0x00000000       0x26
+ .comment       0x00000000       0x26 build/startup.o
+                                 0x27 (size before relaxing)
+ .comment       0x00000026       0x27 build/gpio.o
+ .comment       0x00000026       0x27 build/main.o
+ .comment       0x00000026       0x27 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-memset.o)
+
+.ARM.attributes
+                0x00000000       0x32
+ .ARM.attributes
+                0x00000000       0x34 build/startup.o
+ .ARM.attributes
+                0x00000034       0x34 build/gpio.o
+ .ARM.attributes
+                0x00000068       0x34 build/main.o
+ .ARM.attributes
+                0x0000009c       0x34 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-memset.o)
+ .ARM.attributes
+                0x000000d0       0x20 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-memcpy.o)
+
+.debug_frame    0x00000000      0x114
+ .debug_frame   0x00000000       0x3c build/startup.o
+ .debug_frame   0x0000003c       0x7c build/gpio.o
+ .debug_frame   0x000000b8       0x30 build/main.o
+ .debug_frame   0x000000e8       0x2c /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-memset.o)
+
+.debug_line_str
+                0x00000000       0x99
+ .debug_line_str
+                0x00000000       0x99 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-memcpy.o)

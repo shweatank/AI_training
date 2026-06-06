@@ -1,0 +1,384 @@
+QUICK START GUIDE - STM32F407 GPIO and UART Driver Library
+===========================================================
+
+PROJECT LOCATION: /home/dell/STM32F407_Drivers/
+
+═══════════════════════════════════════════════════════════════
+
+1. PROJECT STRUCTURE
+═══════════════════════════════════════════════════════════════
+
+STM32F407_Drivers/
+│
+├── include/                           # Header files
+│   ├── gpio.hpp                      # GPIO driver interface & class
+│   ├── uart.hpp                      # UART driver interface & class
+│   ├── stm32f407_registers.hpp       # Register definitions & memory map
+│   └── startup.hpp                   # System clock & startup code
+│
+├── src/                              # Implementation files
+│   ├── gpio.cpp                      # GPIO driver implementation
+│   └── uart.cpp                      # UART driver implementation
+│
+├── app/                              # Application
+│   └── main.cpp                      # Demo application (GPIO + UART)
+│
+├── build/                            # Build artifacts (auto-generated)
+│   └── bin/                          # Output binaries
+│       ├── stm32f407_app.elf         ← Executable
+│       ├── stm32f407_app.hex         ← For STLink programming
+│       └── stm32f407_app.bin         ← Binary format
+│
+├── Makefile                          # Build configuration
+├── stm32f407.ld                      # Linker script template
+├── README.md                         # Full documentation
+├── QUICK_START.txt                   # This file
+└── build.sh                          # Auto-build script
+
+
+═══════════════════════════════════════════════════════════════
+
+2. PREREQUISITES
+═══════════════════════════════════════════════════════════════
+
+Required Tools:
+  ✓ ARM GCC Toolchain (arm-none-eabi-gcc, arm-none-eabi-g++)
+  ✓ GNU Make
+  ✓ STLink utility (for flashing - optional but recommended)
+
+Install on Ubuntu/Debian:
+  $ sudo apt-get update
+  $ sudo apt-get install gcc-arm-none-eabi g++-arm-none-eabi arm-none-eabi-gdb
+  $ sudo apt-get install build-essential
+  $ sudo apt-get install stlink-tools  # Optional
+
+Install on macOS:
+  $ brew install arm-none-eabi-gcc
+  $ brew install make
+
+Install on Windows:
+  Download: https://developer.arm.com/downloads/-/gnu-rm
+  
+Hardware:
+  ✓ STM32F407VG Microcontroller (or compatible)
+  ✓ STLink programmer/debugger
+
+
+═══════════════════════════════════════════════════════════════
+
+3. BUILDING THE PROJECT
+═══════════════════════════════════════════════════════════════
+
+Option A - Using Make directly:
+
+  $ cd /home/dell/STM32F407_Drivers
+  $ make              # Build project
+  $ make size         # Show binary size
+  $ make clean        # Clean build artifacts
+  $ make help         # View all targets
+
+Option B - Using the build script:
+
+  $ cd /home/dell/STM32F407_Drivers
+  $ chmod +x build.sh
+  $ ./build.sh        # Auto-check dependencies and build
+
+Expected Output:
+  Compiling: src/gpio.cpp
+  Compiling: src/uart.cpp
+  Compiling: app/main.cpp
+  Linking: build/bin/stm32f407_app.elf
+  ELF file created: build/bin/stm32f407_app.elf
+  HEX file created: build/bin/stm32f407_app.hex
+  BIN file created: build/bin/stm32f407_app.bin
+
+
+═══════════════════════════════════════════════════════════════
+
+4. PROGRAMMING THE DEVICE
+═══════════════════════════════════════════════════════════════
+
+Using STLink Utility:
+
+  $ st-flash write /home/dell/STM32F407_Drivers/build/bin/stm32f407_app.bin 0x8000000
+  
+  Expected output:
+    2024-XX-XX T XX:XX:XX XXXXX flash_loader.c: Device connected is: L476 SRAM0: 128Kb D0S0
+    2024-XX-XX T XX:XX:XX XXXXX flash_loader.c: Flash bank 0: 512Kb
+    2024-XX-XX T XX:XX:XX XXXXX flash_loader.c: Attempting to write 12345 (0x3039) bytes to flash @ OnePercentProgress: 50%
+    Flash written and verified! jolly good!
+
+Using OpenOCD:
+
+  $ openocd -f board/stm32f4discovery.cfg
+  
+  In another terminal:
+  $ arm-none-eabi-gdb /home/dell/STM32F407_Drivers/build/bin/stm32f407_app.elf
+  (gdb) target remote :3333
+  (gdb) load
+  (gdb) monitor reset
+  (gdb) quit
+
+Using ST-Util:
+
+  $ st-util
+  
+  In another terminal:
+  $ arm-none-eabi-gdb /home/dell/STM32F407_Drivers/build/bin/stm32f407_app.elf
+  (gdb) target remote :4242
+  (gdb) load
+  (gdb) quit
+
+
+═══════════════════════════════════════════════════════════════
+
+5. SERIAL COMMUNICATION
+═══════════════════════════════════════════════════════════════
+
+After programming, connect to serial terminal:
+
+Using minicom (Linux):
+  $ minicom -D /dev/ttyUSB0 -b 115200
+  
+  Settings: 8N1 (8 data bits, No parity, 1 stop bit)
+
+Using screen (Linux/macOS):
+  $ screen /dev/ttyUSB0 115200
+  
+  Exit: Ctrl+A, then type 'quit'
+
+Using PuTTY (Windows):
+  1. Set COM port (e.g., COM3)
+  2. Set speed to 115200
+  3. Connection type: Serial
+  4. Click Open
+
+Commands in serial terminal:
+  1-4     Toggle LEDs (D12-D15)
+  A       Turn ALL LEDs ON
+  O       Turn ALL LEDs OFF
+  S       Show Status
+  H       Show Help menu
+
+
+═══════════════════════════════════════════════════════════════
+
+6. CODE EXAMPLES
+═══════════════════════════════════════════════════════════════
+
+GPIO Example:
+  
+  #include "gpio.hpp"
+  using namespace stm32f407;
+  
+  // Create GPIO port instance
+  GPIO gpio(GPIOPort::GPIOD);
+  
+  // Initialize pin as output
+  gpio.init(GPIOPin::PIN12, GPIOMode::OUTPUT, GPIOSpeed::HIGH);
+  
+  // Control pin
+  gpio.writePin(GPIOPin::PIN12, true);      // Set HIGH
+  gpio.writePin(GPIOPin::PIN12, false);     // Set LOW
+  gpio.togglePin(GPIOPin::PIN12);           // Toggle
+  bool state = gpio.readPin(GPIOPin::PIN12); // Read
+
+
+UART Example:
+  
+  #include "uart.hpp"
+  using namespace stm32f407;
+  
+  // Create UART instance
+  UART uart(UARTPort::UART2);
+  
+  // Initialize at 115200 baud
+  uart.init(115200, UARTDataBits::BITS_8, 
+            UARTStopBits::STOP_BITS_1, 
+            UARTParity::NO_PARITY);
+  
+  // Send data
+  uart.sendByte('X');
+  uart.sendString("Hello STM32!\r\n");
+  
+  // Receive data
+  if (uart.isDataAvailable()) {
+      uint8_t byte = uart.receiveByte();
+  }
+
+
+Combined Example (from main.cpp):
+  
+  GPIO led(GPIOPort::GPIOD);
+  led.init(GPIOPin::PIN12, GPIOMode::OUTPUT);
+  
+  UART serial(UARTPort::UART2);
+  serial.init(115200);
+  
+  serial.sendString("LED System Ready\r\n");
+  
+  while (true) {
+      if (serial.isDataAvailable()) {
+          uint8_t cmd = serial.receiveByte();
+          if (cmd == '1') {
+              led.togglePin(GPIOPin::PIN12);
+              serial.sendString("LED Toggled\r\n");
+          }
+      }
+  }
+
+
+═══════════════════════════════════════════════════════════════
+
+7. DEBUGGING WITH GDB
+═══════════════════════════════════════════════════════════════
+
+With STLink:
+  
+  Terminal 1:
+  $ st-util
+  
+  Terminal 2:
+  $ arm-none-eabi-gdb
+  (gdb) file build/bin/stm32f407_app.elf
+  (gdb) target remote :4242
+  (gdb) break main
+  (gdb) continue
+  (gdb) step
+  (gdb) print variable_name
+  (gdb) quit
+
+Common GDB commands:
+  run                 Start execution
+  break [location]    Set breakpoint
+  continue            Resume execution
+  step                Step into function
+  next                Step over function
+  print [var]         Print variable value
+  backtrace           Show call stack
+  watch [var]         Watch variable for changes
+  quit                Exit GDB
+
+
+═══════════════════════════════════════════════════════════════
+
+8. FILE DESCRIPTIONS
+═══════════════════════════════════════════════════════════════
+
+gpio.hpp / gpio.cpp
+  - GPIO port and pin control
+  - Pin initialization with mode, speed, pull configuration
+  - Read/write individual pins and full ports
+  - Alternate function configuration for peripherals
+
+uart.hpp / uart.cpp
+  - UART/USART communication driver
+  - 115200 baud (adjustable) serial communication
+  - Blocking send/receive operations
+  - Automatic GPIO pin configuration for TX/RX
+
+stm32f407_registers.hpp
+  - STM32F407 memory map and register definitions
+  - RCC (Reset & Clock Control) registers
+  - GPIO register structure
+  - UART register structure
+  - Hardware-specific constants and bit masks
+
+startup.hpp
+  - System clock initialization code
+  - Reset handler and exception vectors
+  - BSS/data section initialization
+  - Can be used as reference for complete startup code
+
+main.cpp
+  - Complete working application example
+  - LED control on GPIOD (pins 12-15)
+  - Button input on GPIOA (pin 0)
+  - UART serial interface at 115200 baud
+  - Interactive command interpreter
+
+
+═══════════════════════════════════════════════════════════════
+
+9. COMPILER FLAGS & OPTIMIZATION
+═══════════════════════════════════════════════════════════════
+
+Architecture:    ARM Cortex-M4
+CPU:             -mcpu=cortex-m4
+FPU:             -mfpu=fpv4-sp-d16 (Hardware floating point)
+ABI:             -mfloat-abi=hard
+Optimization:    -O2 (Balance speed/size)
+Debug Info:      -g3 (Full debug symbols)
+C++ Standard:    -std=c++17
+Exceptions:      Disabled (embedded)
+RTTI:            Disabled (embedded)
+
+
+═══════════════════════════════════════════════════════════════
+
+10. PIN ASSIGNMENTS (STM32F4-Discovery Board)
+═══════════════════════════════════════════════════════════════
+
+LEDs:
+  LED Green   - PD12
+  LED Orange  - PD13
+  LED Red     - PD14
+  LED Blue    - PD15
+
+Button:
+  User Button - PA0
+
+UART Serial (UART2 - Default):
+  TX - PA2 (AF7)
+  RX - PA3 (AF7)
+  Baud Rate: 115200
+
+
+═══════════════════════════════════════════════════════════════
+
+11. TROUBLESHOOTING
+═══════════════════════════════════════════════════════════════
+
+Build fails with "command not found":
+  → Install ARM toolchain (see Prerequisites)
+  → Verify PATH includes toolchain bin directory
+
+Device not detected by STLink:
+  → Check USB connection
+  → Run: st-info --probe
+  → May need udev rules on Linux: check ST website
+
+Serial communication not working:
+  → Verify baud rate: 115200
+  → Check TX/RX pins are configured correctly
+  → Verify UART clock is enabled in RCC
+
+No LED response:
+  → Verify GPIO port clock is enabled
+  → Check pin definitions match your board
+  → Use GDB to step through initialization code
+
+
+═══════════════════════════════════════════════════════════════
+
+12. NEXT STEPS
+═══════════════════════════════════════════════════════════════
+
+✓ Build the project          (make)
+✓ Program the device         (st-flash)
+✓ Open serial terminal       (minicom/screen)
+✓ Type commands              (1, A, O, H, S)
+✓ Modify main.cpp for your needs
+✓ Add more GPIO/UART functionality
+✓ Extend with interrupts or DMA
+
+For more information:
+  • See README.md for detailed documentation
+  • Check STM32F407 Reference Manual
+  • Review ARM Cortex-M4 documentation
+  • Visit: https://www.st.com/en/microcontrollers/stm32f4-series.html
+
+
+═══════════════════════════════════════════════════════════════
+END OF QUICK START GUIDE
+═══════════════════════════════════════════════════════════════

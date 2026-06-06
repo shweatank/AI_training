@@ -1,0 +1,127 @@
+Start testing: Jun 06 10:43 IST
+----------------------------------------------------------
+1/2 Testing: GPIOTests
+1/2 Test: GPIOTests
+Command: "/home/dell/STM32F407_Drivers/tests/build_tests/gpio_test"
+Directory: /home/dell/STM32F407_Drivers/tests/build_tests
+"GPIOTests" start time: Jun 06 10:43 IST
+Output:
+----------------------------------------------------------
+[==========] Running 17 tests from 2 test suites.
+[----------] Global test environment set-up.
+[----------] 6 tests from GPIOEnumTest
+[ RUN      ] GPIOEnumTest.PortValuesCorrect
+[       OK ] GPIOEnumTest.PortValuesCorrect (0 ms)
+[ RUN      ] GPIOEnumTest.PinValuesCorrect
+[       OK ] GPIOEnumTest.PinValuesCorrect (0 ms)
+[ RUN      ] GPIOEnumTest.ModeValuesCorrect
+[       OK ] GPIOEnumTest.ModeValuesCorrect (0 ms)
+[ RUN      ] GPIOEnumTest.OutputTypeValuesCorrect
+[       OK ] GPIOEnumTest.OutputTypeValuesCorrect (0 ms)
+[ RUN      ] GPIOEnumTest.SpeedValuesCorrect
+[       OK ] GPIOEnumTest.SpeedValuesCorrect (0 ms)
+[ RUN      ] GPIOEnumTest.PullValuesCorrect
+[       OK ] GPIOEnumTest.PullValuesCorrect (0 ms)
+[----------] 6 tests from GPIOEnumTest (0 ms total)
+
+[----------] 11 tests from GPIOTest
+[ RUN      ] GPIOTest.InterfaceExists
+[       OK ] GPIOTest.InterfaceExists (0 ms)
+[ RUN      ] GPIOTest.InitializeWithDifferentModes
+[       OK ] GPIOTest.InitializeWithDifferentModes (0 ms)
+[ RUN      ] GPIOTest.SetAlternateFunction
+[       OK ] GPIOTest.SetAlternateFunction (0 ms)
+[ RUN      ] GPIOTest.WritePin
+[       OK ] GPIOTest.WritePin (0 ms)
+[ RUN      ] GPIOTest.ReadPin
+[       OK ] GPIOTest.ReadPin (0 ms)
+[ RUN      ] GPIOTest.TogglePin
+[       OK ] GPIOTest.TogglePin (0 ms)
+[ RUN      ] GPIOTest.WritePort
+[       OK ] GPIOTest.WritePort (0 ms)
+[ RUN      ] GPIOTest.ReadPort
+[       OK ] GPIOTest.ReadPort (0 ms)
+[ RUN      ] GPIOTest.MultiplePortsInitialization
+[       OK ] GPIOTest.MultiplePortsInitialization (0 ms)
+[ RUN      ] GPIOTest.SequentialPinOperations
+[       OK ] GPIOTest.SequentialPinOperations (0 ms)
+[ RUN      ] GPIOTest.AllConfigurationCombinations
+[       OK ] GPIOTest.AllConfigurationCombinations (0 ms)
+[----------] 11 tests from GPIOTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 17 tests from 2 test suites ran. (0 ms total)
+[  PASSED  ] 17 tests.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"GPIOTests" end time: Jun 06 10:43 IST
+"GPIOTests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/2 Testing: UARTTests
+2/2 Test: UARTTests
+Command: "/home/dell/STM32F407_Drivers/tests/build_tests/uart_test"
+Directory: /home/dell/STM32F407_Drivers/tests/build_tests
+"UARTTests" start time: Jun 06 10:43 IST
+Output:
+----------------------------------------------------------
+[==========] Running 19 tests from 2 test suites.
+[----------] Global test environment set-up.
+[----------] 4 tests from UARTEnumTest
+[ RUN      ] UARTEnumTest.PortValuesCorrect
+[       OK ] UARTEnumTest.PortValuesCorrect (0 ms)
+[ RUN      ] UARTEnumTest.DataBitsValuesCorrect
+[       OK ] UARTEnumTest.DataBitsValuesCorrect (0 ms)
+[ RUN      ] UARTEnumTest.StopBitsValuesCorrect
+[       OK ] UARTEnumTest.StopBitsValuesCorrect (0 ms)
+[ RUN      ] UARTEnumTest.ParityValuesCorrect
+[       OK ] UARTEnumTest.ParityValuesCorrect (0 ms)
+[----------] 4 tests from UARTEnumTest (0 ms total)
+
+[----------] 15 tests from UARTTest
+[ RUN      ] UARTTest.InterfaceExists
+[       OK ] UARTTest.InterfaceExists (0 ms)
+[ RUN      ] UARTTest.InitializeWithDifferentBaudRates
+[       OK ] UARTTest.InitializeWithDifferentBaudRates (0 ms)
+[ RUN      ] UARTTest.InitializeWithAllConfigurations
+[       OK ] UARTTest.InitializeWithAllConfigurations (0 ms)
+[ RUN      ] UARTTest.SendSingleByte
+[       OK ] UARTTest.SendSingleByte (0 ms)
+[ RUN      ] UARTTest.ReceiveSingleByte
+[       OK ] UARTTest.ReceiveSingleByte (0 ms)
+[ RUN      ] UARTTest.SendString
+[       OK ] UARTTest.SendString (0 ms)
+[ RUN      ] UARTTest.CheckDataAvailable
+[       OK ] UARTTest.CheckDataAvailable (0 ms)
+[ RUN      ] UARTTest.CheckTransmitterBusy
+[       OK ] UARTTest.CheckTransmitterBusy (0 ms)
+[ RUN      ] UARTTest.EnableDisable
+[       OK ] UARTTest.EnableDisable (0 ms)
+[ RUN      ] UARTTest.MultipleUARTPortsInitialization
+[       OK ] UARTTest.MultipleUARTPortsInitialization (0 ms)
+[ RUN      ] UARTTest.CommonBaudRates
+[       OK ] UARTTest.CommonBaudRates (0 ms)
+[ RUN      ] UARTTest.AllDataConfigurations
+[       OK ] UARTTest.AllDataConfigurations (0 ms)
+[ RUN      ] UARTTest.SendReceiveSequence
+[       OK ] UARTTest.SendReceiveSequence (0 ms)
+[ RUN      ] UARTTest.EnableDisableWithOperations
+[       OK ] UARTTest.EnableDisableWithOperations (0 ms)
+[ RUN      ] UARTTest.StateTransitions
+[       OK ] UARTTest.StateTransitions (0 ms)
+[----------] 15 tests from UARTTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 19 tests from 2 test suites ran. (0 ms total)
+[  PASSED  ] 19 tests.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"UARTTests" end time: Jun 06 10:43 IST
+"UARTTests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jun 06 10:43 IST
