@@ -1,0 +1,820 @@
+Archive member included to satisfy reference by file (symbol)
+
+/usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(del_ops.o)
+                              build/src/main.o (operator delete(void*, unsigned int))
+/usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(del_op.o)
+                              /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(del_ops.o) (operator delete(void*))
+/usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-memset.o)
+                              build/src/main.o (memset)
+/usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-memcpy.o)
+                              build/startup/startup_stm32f407.o (memcpy)
+/usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-malloc.o)
+                              /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(del_op.o) (free)
+/usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-impure.o)
+                              /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-malloc.o) (_impure_ptr)
+/usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-mallocr.o)
+                              /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-malloc.o) (_malloc_r)
+/usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-freer.o)
+                              /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-malloc.o) (_free_r)
+/usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-mlock.o)
+                              /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-mallocr.o) (__malloc_lock)
+/usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-sbrkr.o)
+                              /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-mallocr.o) (_sbrk_r)
+/usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-reent.o)
+                              /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-sbrkr.o) (errno)
+/usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a(sbrk.o)
+                              /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-sbrkr.o) (_sbrk)
+
+Discarded input sections
+
+ .group         0x00000000        0x8 build/src/main.o
+ .group         0x00000000        0x8 build/src/main.o
+ .group         0x00000000        0x8 build/src/main.o
+ .group         0x00000000        0x8 build/src/main.o
+ .group         0x00000000        0x8 build/src/main.o
+ .group         0x00000000       0x10 build/src/main.o
+ .group         0x00000000       0x10 build/src/main.o
+ .group         0x00000000       0x10 build/src/main.o
+ .group         0x00000000        0x8 build/src/main.o
+ .group         0x00000000        0xc build/src/main.o
+ .group         0x00000000        0xc build/src/main.o
+ .group         0x00000000        0xc build/src/main.o
+ .group         0x00000000        0xc build/src/main.o
+ .group         0x00000000        0xc build/src/main.o
+ .group         0x00000000        0x8 build/src/main.o
+ .group         0x00000000        0xc build/src/main.o
+ .group         0x00000000        0xc build/src/main.o
+ .group         0x00000000        0xc build/src/main.o
+ .text          0x00000000        0x0 build/src/main.o
+ .data          0x00000000        0x0 build/src/main.o
+ .bss           0x00000000        0x0 build/src/main.o
+ .comment       0x00000000       0x27 build/src/main.o
+ .text          0x00000000        0x0 build/firmware/application/command_parser.o
+ .data          0x00000000        0x0 build/firmware/application/command_parser.o
+ .bss           0x00000000        0x0 build/firmware/application/command_parser.o
+ .comment       0x00000000       0x27 build/firmware/application/command_parser.o
+ .text          0x00000000        0x0 build/firmware/application/command_processor.o
+ .data          0x00000000        0x0 build/firmware/application/command_processor.o
+ .bss           0x00000000        0x0 build/firmware/application/command_processor.o
+ .comment       0x00000000       0x27 build/firmware/application/command_processor.o
+ .text          0x00000000        0x0 build/firmware/application/traffic_light.o
+ .data          0x00000000        0x0 build/firmware/application/traffic_light.o
+ .bss           0x00000000        0x0 build/firmware/application/traffic_light.o
+ .comment       0x00000000       0x27 build/firmware/application/traffic_light.o
+ .text          0x00000000        0x0 build/firmware/platform/stm32/stm32f407_gpio.o
+ .data          0x00000000        0x0 build/firmware/platform/stm32/stm32f407_gpio.o
+ .bss           0x00000000        0x0 build/firmware/platform/stm32/stm32f407_gpio.o
+ .text._ZNK9stm32f4074Gpio5writeEhNS_8PinStateE
+                0x00000000        0xc build/firmware/platform/stm32/stm32f407_gpio.o
+ .text._ZNK9stm32f4074Gpio6toggleEh
+                0x00000000       0x2a build/firmware/platform/stm32/stm32f407_gpio.o
+ .text._ZNK9stm32f4074Gpio4readEh
+                0x00000000       0x1a build/firmware/platform/stm32/stm32f407_gpio.o
+ .comment       0x00000000       0x27 build/firmware/platform/stm32/stm32f407_gpio.o
+ .text          0x00000000        0x0 build/firmware/platform/stm32/stm32f407_uart.o
+ .data          0x00000000        0x0 build/firmware/platform/stm32/stm32f407_uart.o
+ .bss           0x00000000        0x0 build/firmware/platform/stm32/stm32f407_uart.o
+ .text._ZNK9stm32f4074Uart10writeBytesEPKhj
+                0x00000000       0x1e build/firmware/platform/stm32/stm32f407_uart.o
+ .text._ZNK9stm32f4074Uart8readByteEv
+                0x00000000        0xe build/firmware/platform/stm32/stm32f407_uart.o
+ .comment       0x00000000       0x27 build/firmware/platform/stm32/stm32f407_uart.o
+ .group         0x00000000       0x10 build/firmware/platform/stm32/systick_clock.o
+ .text          0x00000000        0x0 build/firmware/platform/stm32/systick_clock.o
+ .data          0x00000000        0x0 build/firmware/platform/stm32/systick_clock.o
+ .bss           0x00000000        0x0 build/firmware/platform/stm32/systick_clock.o
+ .comment       0x00000000       0x27 build/firmware/platform/stm32/systick_clock.o
+ .text          0x00000000        0x0 build/firmware/platform/stm32/uart_console.o
+ .data          0x00000000        0x0 build/firmware/platform/stm32/uart_console.o
+ .bss           0x00000000        0x0 build/firmware/platform/stm32/uart_console.o
+ .comment       0x00000000       0x27 build/firmware/platform/stm32/uart_console.o
+ .text          0x00000000        0x0 build/startup/startup_stm32f407.o
+ .data          0x00000000        0x0 build/startup/startup_stm32f407.o
+ .bss           0x00000000        0x0 build/startup/startup_stm32f407.o
+ .comment       0x00000000       0x27 build/startup/startup_stm32f407.o
+ .text          0x00000000        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(del_ops.o)
+ .data          0x00000000        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(del_ops.o)
+ .bss           0x00000000        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(del_ops.o)
+ .comment       0x00000000       0x27 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(del_ops.o)
+ .text          0x00000000        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(del_op.o)
+ .data          0x00000000        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(del_op.o)
+ .bss           0x00000000        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(del_op.o)
+ .comment       0x00000000       0x27 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(del_op.o)
+ .data          0x00000000        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-memset.o)
+ .bss           0x00000000        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-memset.o)
+ .comment       0x00000000       0x27 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-memset.o)
+ .data          0x00000000        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-memcpy.o)
+ .bss           0x00000000        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-memcpy.o)
+ .ARM.extab     0x00000000        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-memcpy.o)
+ .eh_frame      0x00000000       0x2c /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-memcpy.o)
+ .data          0x00000000        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-malloc.o)
+ .bss           0x00000000        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-malloc.o)
+ .comment       0x00000000       0x27 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-malloc.o)
+ .text          0x00000000        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-impure.o)
+ .bss           0x00000000        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-impure.o)
+ .comment       0x00000000       0x27 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-impure.o)
+ .data          0x00000000        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-mallocr.o)
+ .comment       0x00000000       0x27 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-mallocr.o)
+ .data          0x00000000        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-freer.o)
+ .bss           0x00000000        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-freer.o)
+ .comment       0x00000000       0x27 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-freer.o)
+ .data          0x00000000        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-mlock.o)
+ .bss           0x00000000        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-mlock.o)
+ .comment       0x00000000       0x27 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-mlock.o)
+ .data          0x00000000        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-sbrkr.o)
+ .bss           0x00000000        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-sbrkr.o)
+ .comment       0x00000000       0x27 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-sbrkr.o)
+ .text          0x00000000       0xd4 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-reent.o)
+ .data          0x00000000        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-reent.o)
+ .comment       0x00000000       0x27 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-reent.o)
+ .data          0x00000000        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a(sbrk.o)
+ .comment       0x00000000       0x27 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a(sbrk.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+FLASH            0x08000000         0x00100000         xr
+RAM              0x20000000         0x00020000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/src/main.o
+LOAD build/firmware/application/command_parser.o
+LOAD build/firmware/application/command_processor.o
+LOAD build/firmware/application/traffic_light.o
+LOAD build/firmware/platform/stm32/stm32f407_gpio.o
+LOAD build/firmware/platform/stm32/stm32f407_uart.o
+LOAD build/firmware/platform/stm32/systick_clock.o
+LOAD build/firmware/platform/stm32/uart_console.o
+LOAD build/startup/startup_stm32f407.o
+LOAD /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
+LOAD /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+START GROUP
+LOAD /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a
+END GROUP
+START GROUP
+LOAD /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a
+LOAD /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a
+END GROUP
+START GROUP
+LOAD /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a
+LOAD /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a
+END GROUP
+                0x20020000                        _estack = (ORIGIN (RAM) + LENGTH (RAM))
+                0x00000200                        _Min_Heap_Size = 0x200
+                0x00000400                        _Min_Stack_Size = 0x400
+
+.isr_vector     0x08000000       0xdc
+                0x08000000                        . = ALIGN (0x4)
+ *(.isr_vector)
+ .isr_vector    0x08000000       0xdc build/startup/startup_stm32f407.o
+                0x080000dc                        . = ALIGN (0x4)
+
+.text           0x080000dc     0x1200
+                0x080000dc                        . = ALIGN (0x4)
+ *(.text)
+ .text          0x080000dc       0xa4 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-memset.o)
+                0x080000dc                memset
+ .text          0x08000180      0x134 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-memcpy.o)
+                0x08000180                memcpy
+ .text          0x080002b4       0x20 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-malloc.o)
+                0x080002b4                malloc
+                0x080002c4                free
+ .text          0x080002d4      0x148 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-mallocr.o)
+                0x0800031c                _malloc_r
+ .text          0x0800041c       0xbc /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-freer.o)
+                0x0800041c                _free_r
+ .text          0x080004d8        0x8 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-mlock.o)
+                0x080004d8                __malloc_lock
+                0x080004dc                __malloc_unlock
+ .text          0x080004e0       0x24 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-sbrkr.o)
+                0x080004e0                _sbrk_r
+ .text          0x08000504       0x1c /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a(sbrk.o)
+                0x08000504                _sbrk
+ *(.text*)
+ .text._ZNK9stm32f4077GpioLed4isOnEv
+                0x08000520        0x4 build/src/main.o
+                0x08000520                stm32f407::GpioLed::isOn() const
+ .text._ZN3app9SoftTimer7startMsEm
+                0x08000524       0x18 build/src/main.o
+                0x08000524                app::SoftTimer::startMs(unsigned long)
+ .text._ZN3app9SoftTimer4stopEv
+                0x0800053c        0x6 build/src/main.o
+                0x0800053c                app::SoftTimer::stop()
+ .text._ZNK3app9SoftTimer9isRunningEv
+                0x08000542        0x4 build/src/main.o
+                0x08000542                app::SoftTimer::isRunning() const
+ .text._ZNK3app9SoftTimer11remainingMsEv
+                0x08000546       0x24 build/src/main.o
+                0x08000546                app::SoftTimer::remainingMs() const
+ .text._ZN9stm32f4077GpioLedD2Ev
+                0x0800056a        0x2 build/src/main.o
+                0x0800056a                stm32f407::GpioLed::~GpioLed()
+                0x0800056a                stm32f407::GpioLed::~GpioLed()
+ .text._ZN9stm32f40711UartConsoleD2Ev
+                0x0800056c        0x2 build/src/main.o
+                0x0800056c                stm32f407::UartConsole::~UartConsole()
+                0x0800056c                stm32f407::UartConsole::~UartConsole()
+ .text._ZN3app9SoftTimerD2Ev
+                0x0800056e        0x2 build/src/main.o
+                0x0800056e                app::SoftTimer::~SoftTimer()
+                0x0800056e                app::SoftTimer::~SoftTimer()
+ .text._ZN9stm32f40711UartConsole4readERh
+                0x08000570       0x34 build/src/main.o
+                0x08000570                stm32f407::UartConsole::read(unsigned char&)
+ .text._ZN12_GLOBAL__N_115configureLedPinERKN9stm32f4074GpioEh
+                0x080005a4       0x24 build/src/main.o
+ .text._ZN9stm32f4077GpioLedD0Ev
+                0x080005c8        0xe build/src/main.o
+                0x080005c8                stm32f407::GpioLed::~GpioLed()
+ .text._ZN9stm32f40711UartConsoleD0Ev
+                0x080005d6        0xe build/src/main.o
+                0x080005d6                stm32f407::UartConsole::~UartConsole()
+ .text._ZN3app9SoftTimerD0Ev
+                0x080005e4        0xe build/src/main.o
+                0x080005e4                app::SoftTimer::~SoftTimer()
+ .text._ZN9stm32f4077GpioLed3offEv
+                0x080005f2       0x12 build/src/main.o
+                0x080005f2                stm32f407::GpioLed::off()
+ .text._ZN9stm32f4077GpioLed2onEv
+                0x08000604       0x12 build/src/main.o
+                0x08000604                stm32f407::GpioLed::on()
+ .text._ZN9stm32f4077GpioLed3setEb
+                0x08000616       0x10 build/src/main.o
+                0x08000616                stm32f407::GpioLed::set(bool)
+ .text._ZN9stm32f40711UartConsole5writeEh
+                0x08000626        0x6 build/src/main.o
+                0x08000626                stm32f407::UartConsole::write(unsigned char)
+ .text._ZN9stm32f40711UartConsole11writeStringEPKc
+                0x0800062c        0x6 build/src/main.o
+                0x0800062c                stm32f407::UartConsole::writeString(char const*)
+ .text._ZNK3app9SoftTimer7expiredEv
+                0x08000632       0x20 build/src/main.o
+                0x08000632                app::SoftTimer::expired() const
+ *fill*         0x08000652        0x2 
+ .text.startup.main
+                0x08000654      0x1ec build/src/main.o
+                0x08000654                main
+ .text._ZN3app12_GLOBAL__N_17isSpaceEc
+                0x08000840       0x14 build/firmware/application/command_parser.o
+ .text._ZN3app13CommandParser16equalsIgnoreCaseEPKcS2_S2_
+                0x08000854       0x3c build/firmware/application/command_parser.o
+                0x08000854                app::CommandParser::equalsIgnoreCase(char const*, char const*, char const*)
+ .text._ZN3app13CommandParser13parseDurationEPKcS2_Rm
+                0x08000890       0x3a build/firmware/application/command_parser.o
+                0x08000890                app::CommandParser::parseDuration(char const*, char const*, unsigned long&)
+ *fill*         0x080008ca        0x2 
+ .text._ZN3app13CommandParser5parseEPKcj
+                0x080008cc       0xc8 build/firmware/application/command_parser.o
+                0x080008cc                app::CommandParser::parse(char const*, unsigned int)
+ .text._ZN3app3fmt6appendEPcjjPKc.part.0
+                0x08000994       0x22 build/firmware/application/command_processor.o
+ .text._ZN3app3fmt9toDecimalEmPcj.isra.0
+                0x080009b6       0x60 build/firmware/application/command_processor.o
+ *fill*         0x08000a16        0x2 
+ .text._ZN3app16CommandProcessor9stateNameENS_12TrafficStateE
+                0x08000a18       0x1c build/firmware/application/command_processor.o
+                0x08000a18                app::CommandProcessor::stateName(app::TrafficState)
+ .text._ZN3app16CommandProcessor3ackEv
+                0x08000a34       0x10 build/firmware/application/command_processor.o
+                0x08000a34                app::CommandProcessor::ack()
+ .text._ZN3app16CommandProcessor4nackEv
+                0x08000a44       0x10 build/firmware/application/command_processor.o
+                0x08000a44                app::CommandProcessor::nack()
+ .text._ZN3app16CommandProcessor5applyERKNS_7CommandERb
+                0x08000a54       0x50 build/firmware/application/command_processor.o
+                0x08000a54                app::CommandProcessor::apply(app::Command const&, bool&)
+ .text._ZN3app16CommandProcessor11printStatusEv
+                0x08000aa4      0x118 build/firmware/application/command_processor.o
+                0x08000aa4                app::CommandProcessor::printStatus()
+ .text._ZN3app16CommandProcessor9printHelpEv
+                0x08000bbc       0x78 build/firmware/application/command_processor.o
+                0x08000bbc                app::CommandProcessor::printHelp()
+ .text._ZN3app16CommandProcessor10handleLineEPKcj
+                0x08000c34       0x5c build/firmware/application/command_processor.o
+                0x08000c34                app::CommandProcessor::handleLine(char const*, unsigned int)
+ .text._ZN3app16CommandProcessor11printBannerEv
+                0x08000c90       0x24 build/firmware/application/command_processor.o
+                0x08000c90                app::CommandProcessor::printBanner()
+ .text._ZNK3app12TrafficLight11durationForENS_12TrafficStateE
+                0x08000cb4       0x1c build/firmware/application/traffic_light.o
+                0x08000cb4                app::TrafficLight::durationFor(app::TrafficState) const
+ .text._ZN3app12TrafficLight10enterStateENS_12TrafficStateE
+                0x08000cd0       0x70 build/firmware/application/traffic_light.o
+                0x08000cd0                app::TrafficLight::enterState(app::TrafficState)
+ .text._ZN3app12TrafficLightC2ERN3hal4ILedES3_S3_S3_RNS1_6ITimerE
+                0x08000d40       0x30 build/firmware/application/traffic_light.o
+                0x08000d40                app::TrafficLight::TrafficLight(hal::ILed&, hal::ILed&, hal::ILed&, hal::ILed&, hal::ITimer&)
+                0x08000d40                app::TrafficLight::TrafficLight(hal::ILed&, hal::ILed&, hal::ILed&, hal::ILed&, hal::ITimer&)
+ .text._ZN3app12TrafficLight5startEv
+                0x08000d70        0xa build/firmware/application/traffic_light.o
+                0x08000d70                app::TrafficLight::start()
+ .text._ZN3app12TrafficLight4stopEv
+                0x08000d7a        0xa build/firmware/application/traffic_light.o
+                0x08000d7a                app::TrafficLight::stop()
+ .text._ZN3app12TrafficLight6updateEv
+                0x08000d84       0x3e build/firmware/application/traffic_light.o
+                0x08000d84                app::TrafficLight::update()
+ .text._ZN3app12TrafficLight13reArmIfActiveENS_12TrafficStateE
+                0x08000dc2       0x2a build/firmware/application/traffic_light.o
+                0x08000dc2                app::TrafficLight::reArmIfActive(app::TrafficState)
+ .text._ZN3app12TrafficLight14setRedDurationEm
+                0x08000dec        0x8 build/firmware/application/traffic_light.o
+                0x08000dec                app::TrafficLight::setRedDuration(unsigned long)
+ .text._ZN3app12TrafficLight16setGreenDurationEm
+                0x08000df4        0x8 build/firmware/application/traffic_light.o
+                0x08000df4                app::TrafficLight::setGreenDuration(unsigned long)
+ .text._ZN3app12TrafficLight17setYellowDurationEm
+                0x08000dfc        0x8 build/firmware/application/traffic_light.o
+                0x08000dfc                app::TrafficLight::setYellowDuration(unsigned long)
+ .text._ZNK3app12TrafficLight12remainingSecEv
+                0x08000e04       0x26 build/firmware/application/traffic_light.o
+                0x08000e04                app::TrafficLight::remainingSec() const
+ .text._ZN9stm32f4074Gpio9write2bitERVmhm
+                0x08000e2a       0x1a build/firmware/platform/stm32/stm32f407_gpio.o
+                0x08000e2a                stm32f407::Gpio::write2bit(unsigned long volatile&, unsigned char, unsigned long)
+ .text._ZNK9stm32f4074Gpio9configureEhRKNS_9PinConfigE
+                0x08000e44       0x66 build/firmware/platform/stm32/stm32f407_gpio.o
+                0x08000e44                stm32f407::Gpio::configure(unsigned char, stm32f407::PinConfig const&) const
+ .text._ZNK9stm32f4074Gpio3setEh
+                0x08000eaa        0xe build/firmware/platform/stm32/stm32f407_gpio.o
+                0x08000eaa                stm32f407::Gpio::set(unsigned char) const
+ .text._ZNK9stm32f4074Gpio5resetEh
+                0x08000eb8       0x10 build/firmware/platform/stm32/stm32f407_gpio.o
+                0x08000eb8                stm32f407::Gpio::reset(unsigned char) const
+ .text._ZN9stm32f4074Uart10computeBrrEmm
+                0x08000ec8       0x10 build/firmware/platform/stm32/stm32f407_uart.o
+                0x08000ec8                stm32f407::Uart::computeBrr(unsigned long, unsigned long)
+ .text._ZN9stm32f4074Uart4initERKNS_10UartConfigE
+                0x08000ed8       0x4c build/firmware/platform/stm32/stm32f407_uart.o
+                0x08000ed8                stm32f407::Uart::init(stm32f407::UartConfig const&)
+ .text._ZN9stm32f4074Uart14setRxInterruptEb
+                0x08000f24       0x14 build/firmware/platform/stm32/stm32f407_uart.o
+                0x08000f24                stm32f407::Uart::setRxInterrupt(bool)
+ .text._ZNK9stm32f4074Uart9writeByteEh
+                0x08000f38        0xc build/firmware/platform/stm32/stm32f407_uart.o
+                0x08000f38                stm32f407::Uart::writeByte(unsigned char) const
+ .text._ZNK9stm32f4074Uart11writeStringEPKc
+                0x08000f44       0x1c build/firmware/platform/stm32/stm32f407_uart.o
+                0x08000f44                stm32f407::Uart::writeString(char const*) const
+ .text._ZNK9stm32f4074Uart7rxReadyEv
+                0x08000f60        0xa build/firmware/platform/stm32/stm32f407_uart.o
+                0x08000f60                stm32f407::Uart::rxReady() const
+ .text._ZNK9stm32f4074Uart8readDataEv
+                0x08000f6a        0x8 build/firmware/platform/stm32/stm32f407_uart.o
+                0x08000f6a                stm32f407::Uart::readData() const
+ *fill*         0x08000f72        0x2 
+ .text._ZNK9stm32f40712SysTickClock5nowMsEv
+                0x08000f74        0xc build/firmware/platform/stm32/systick_clock.o
+                0x08000f74                stm32f407::SysTickClock::nowMs() const
+ .text._ZN9stm32f40712SysTickClockD2Ev
+                0x08000f80        0x2 build/firmware/platform/stm32/systick_clock.o
+                0x08000f80                stm32f407::SysTickClock::~SysTickClock()
+                0x08000f80                stm32f407::SysTickClock::~SysTickClock()
+ .text._ZN9stm32f40712SysTickClockD0Ev
+                0x08000f82        0xe build/firmware/platform/stm32/systick_clock.o
+                0x08000f82                stm32f407::SysTickClock::~SysTickClock()
+ .text._ZN9stm32f40712SysTickClock4initEm
+                0x08000f90       0x24 build/firmware/platform/stm32/systick_clock.o
+                0x08000f90                stm32f407::SysTickClock::init(unsigned long)
+ .text.SysTick_Handler
+                0x08000fb4       0x10 build/firmware/platform/stm32/systick_clock.o
+                0x08000fb4                SysTick_Handler
+ .text._ZN9stm32f40715attachUsart2IsrEPNS_11UartConsoleE
+                0x08000fc4       0x18 build/firmware/platform/stm32/uart_console.o
+                0x08000fc4                stm32f407::attachUsart2Isr(stm32f407::UartConsole*)
+ .text.USART2_IRQHandler
+                0x08000fdc       0x44 build/firmware/platform/stm32/uart_console.o
+                0x08000fdc                USART2_IRQHandler
+ .text.Default_Handler
+                0x08001020        0x2 build/startup/startup_stm32f407.o
+                0x08001020                DebugMon_Handler
+                0x08001020                HardFault_Handler
+                0x08001020                PendSV_Handler
+                0x08001020                NMI_Handler
+                0x08001020                UsageFault_Handler
+                0x08001020                Default_Handler
+                0x08001020                MemManage_Handler
+                0x08001020                SVC_Handler
+                0x08001020                BusFault_Handler
+ *fill*         0x08001022        0x2 
+ .text.Reset_Handler
+                0x08001024       0x68 build/startup/startup_stm32f407.o
+                0x08001024                Reset_Handler
+ .text._ZdlPvj  0x0800108c        0x4 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(del_ops.o)
+                0x0800108c                operator delete(void*, unsigned int)
+ .text._ZdlPv   0x08001090        0x4 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(del_op.o)
+                0x08001090                operator delete(void*)
+ *(.rodata)
+ .rodata        0x08001094       0x14 build/src/main.o
+ .rodata        0x080010a8        0xc build/firmware/application/traffic_light.o
+ *(.rodata*)
+ .rodata.main.str1.1
+                0x080010b4      0x1a6 build/src/main.o
+                                  0x7 (size before relaxing)
+ *fill*         0x0800125a        0x2 
+ .rodata._ZTVN9stm32f4077GpioLedE
+                0x0800125c       0x20 build/src/main.o
+                0x0800125c                vtable for stm32f407::GpioLed
+ .rodata._ZTVN9stm32f40711UartConsoleE
+                0x0800127c       0x1c build/src/main.o
+                0x0800127c                vtable for stm32f407::UartConsole
+ .rodata._ZTVN3app9SoftTimerE
+                0x08001298       0x24 build/src/main.o
+                0x08001298                vtable for app::SoftTimer
+ .rodata._ZN3app13CommandParser5parseEPKcj.str1.1
+                0x080012bc       0x17 build/firmware/application/command_parser.o
+ .rodata._ZN3app16CommandProcessor9stateNameENS_12TrafficStateE.str1.1
+                0x080012bc        0x5 build/firmware/application/command_processor.o
+ .rodata._ZN3app16CommandProcessor3ackEv.str1.1
+                0x080012bc        0x6 build/firmware/application/command_processor.o
+ .rodata._ZN3app16CommandProcessor4nackEv.str1.1
+                0x080012bc        0x7 build/firmware/application/command_processor.o
+ .rodata._ZN3app16CommandProcessor11printStatusEv.str1.1
+                0x080012bc       0x30 build/firmware/application/command_processor.o
+ .rodata._ZN3app16CommandProcessor9printHelpEv.str1.1
+                0x080012bc       0xf8 build/firmware/application/command_processor.o
+ .rodata._ZN3app16CommandProcessor11printBannerEv.str1.1
+                0x080012bc       0x4d build/firmware/application/command_processor.o
+ .rodata.str1.1
+                0x080012bc       0x11 build/firmware/application/command_processor.o
+ .rodata.CSWTCH.12
+                0x080012bc        0xc build/firmware/application/command_processor.o
+ .rodata._ZTVN9stm32f40712SysTickClockE
+                0x080012c8       0x14 build/firmware/platform/stm32/systick_clock.o
+                0x080012c8                vtable for stm32f407::SysTickClock
+ *(.glue_7)
+ .glue_7        0x080012dc        0x0 linker stubs
+ *(.glue_7t)
+ .glue_7t       0x080012dc        0x0 linker stubs
+ *(.init)
+ *(.fini)
+                0x080013b4                        . = ALIGN (0x4)
+                0x080012dc                        _etext = .
+
+.vfp11_veneer   0x080012dc        0x0
+ .vfp11_veneer  0x080012dc        0x0 linker stubs
+
+.v4_bx          0x080012dc        0x0
+ .v4_bx         0x080012dc        0x0 linker stubs
+
+.iplt           0x080012dc        0x0
+ .iplt          0x080012dc        0x0 build/src/main.o
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+
+.ARM            0x080012dc        0x8
+                0x080012dc                        __exidx_start = .
+ *(.ARM.exidx*)
+ .ARM.exidx     0x080012dc        0x8 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-memcpy.o)
+                0x080012e4                        __exidx_end = .
+
+.rel.dyn        0x080012e4        0x0
+ .rel.iplt      0x080012e4        0x0 build/src/main.o
+
+.init_array     0x080012e4        0x0
+                0x080012e4                        . = ALIGN (0x4)
+                0x080012e4                        __init_array_start = .
+ *(SORT_BY_NAME(.init_array.*))
+ *(.init_array*)
+                0x080012e4                        __init_array_end = .
+                0x080012e4                        . = ALIGN (0x4)
+
+.fini_array     0x080012e4        0x0
+                0x080012e4                        . = ALIGN (0x4)
+ *(SORT_BY_NAME(.fini_array.*))
+ *(.fini_array*)
+                0x080012e4                        . = ALIGN (0x4)
+                0x080012e4                        _sidata = LOADADDR (.data)
+
+.data           0x20000000       0x50 load address 0x080012e4
+                0x20000000                        . = ALIGN (0x4)
+                0x20000000                        _sdata = .
+ *(.data)
+ .data          0x20000000       0x50 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-impure.o)
+                0x20000000                _impure_ptr
+                0x20000004                _impure_data
+ *(.data*)
+                0x20000050                        . = ALIGN (0x4)
+                0x20000050                        _edata = .
+
+.igot.plt       0x20000050        0x0 load address 0x08001334
+ .igot.plt      0x20000050        0x0 build/src/main.o
+
+.bss            0x20000050       0x18 load address 0x08001334
+                0x20000050                        . = ALIGN (0x4)
+                0x20000050                        _sbss = .
+                0x20000050                        __bss_start__ = _sbss
+ *(.bss)
+ .bss           0x20000050        0x8 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-mallocr.o)
+                0x20000050                __malloc_sbrk_start
+                0x20000054                __malloc_free_list
+ .bss           0x20000058        0x4 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-reent.o)
+                0x20000058                errno
+ .bss           0x2000005c        0x4 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a(sbrk.o)
+ *(.bss*)
+ .bss._ZN9stm32f40712_GLOBAL__N_112g_systick_msE
+                0x20000060        0x4 build/firmware/platform/stm32/systick_clock.o
+ .bss._ZN9stm32f40712_GLOBAL__N_116g_usart2_consoleE
+                0x20000064        0x4 build/firmware/platform/stm32/uart_console.o
+ *(COMMON)
+                0x20000068                        . = ALIGN (0x4)
+                0x20000068                        _ebss = .
+                0x20000068                        __bss_end__ = _ebss
+                0x20000068                        PROVIDE (end = _ebss)
+                [!provide]                        PROVIDE (_end = _ebss)
+
+._user_heap_stack
+                0x20000068      0x600 load address 0x08001334
+                0x20000068                        . = ALIGN (0x8)
+                0x20000268                        . = (. + _Min_Heap_Size)
+ *fill*         0x20000068      0x200 
+                0x20000668                        . = (. + _Min_Stack_Size)
+ *fill*         0x20000268      0x400 
+                0x20000668                        . = ALIGN (0x8)
+
+/DISCARD/
+ *(.comment)
+OUTPUT(build/traffic_controller.elf elf32-littlearm)
+LOAD linker stubs
+
+.ARM.attributes
+                0x00000000       0x32
+ .ARM.attributes
+                0x00000000       0x34 build/src/main.o
+ .ARM.attributes
+                0x00000034       0x34 build/firmware/application/command_parser.o
+ .ARM.attributes
+                0x00000068       0x34 build/firmware/application/command_processor.o
+ .ARM.attributes
+                0x0000009c       0x34 build/firmware/application/traffic_light.o
+ .ARM.attributes
+                0x000000d0       0x34 build/firmware/platform/stm32/stm32f407_gpio.o
+ .ARM.attributes
+                0x00000104       0x34 build/firmware/platform/stm32/stm32f407_uart.o
+ .ARM.attributes
+                0x00000138       0x34 build/firmware/platform/stm32/systick_clock.o
+ .ARM.attributes
+                0x0000016c       0x34 build/firmware/platform/stm32/uart_console.o
+ .ARM.attributes
+                0x000001a0       0x34 build/startup/startup_stm32f407.o
+ .ARM.attributes
+                0x000001d4       0x34 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(del_ops.o)
+ .ARM.attributes
+                0x00000208       0x34 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(del_op.o)
+ .ARM.attributes
+                0x0000023c       0x34 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-memset.o)
+ .ARM.attributes
+                0x00000270       0x20 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-memcpy.o)
+ .ARM.attributes
+                0x00000290       0x34 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-malloc.o)
+ .ARM.attributes
+                0x000002c4       0x34 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-impure.o)
+ .ARM.attributes
+                0x000002f8       0x34 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-mallocr.o)
+ .ARM.attributes
+                0x0000032c       0x34 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-freer.o)
+ .ARM.attributes
+                0x00000360       0x34 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-mlock.o)
+ .ARM.attributes
+                0x00000394       0x34 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-sbrkr.o)
+ .ARM.attributes
+                0x000003c8       0x34 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-reent.o)
+ .ARM.attributes
+                0x000003fc       0x34 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a(sbrk.o)
+
+.debug_info     0x00000000     0xcf1c
+ .debug_info    0x00000000     0x3624 build/src/main.o
+ .debug_info    0x00003624      0x742 build/firmware/application/command_parser.o
+ .debug_info    0x00003d66     0x13d0 build/firmware/application/command_processor.o
+ .debug_info    0x00005136      0x96c build/firmware/application/traffic_light.o
+ .debug_info    0x00005aa2      0xbe2 build/firmware/platform/stm32/stm32f407_gpio.o
+ .debug_info    0x00006684      0xb2f build/firmware/platform/stm32/stm32f407_uart.o
+ .debug_info    0x000071b3      0x9a1 build/firmware/platform/stm32/systick_clock.o
+ .debug_info    0x00007b54      0xf52 build/firmware/platform/stm32/uart_console.o
+ .debug_info    0x00008aa6      0x3f7 build/startup/startup_stm32f407.o
+ .debug_info    0x00008e9d       0xaf /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(del_ops.o)
+ .debug_info    0x00008f4c      0x5b3 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(del_op.o)
+ .debug_info    0x000094ff      0x135 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-memset.o)
+ .debug_info    0x00009634       0x33 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-memcpy.o)
+ .debug_info    0x00009667      0x796 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-malloc.o)
+ .debug_info    0x00009dfd      0x70b /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-impure.o)
+ .debug_info    0x0000a508      0x9b6 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-mallocr.o)
+ .debug_info    0x0000aebe      0x87f /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-freer.o)
+ .debug_info    0x0000b73d      0x71c /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-mlock.o)
+ .debug_info    0x0000be59      0x778 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-sbrkr.o)
+ .debug_info    0x0000c5d1      0x89f /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-reent.o)
+ .debug_info    0x0000ce70       0xac /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a(sbrk.o)
+
+.debug_abbrev   0x00000000     0x3482
+ .debug_abbrev  0x00000000      0x7d2 build/src/main.o
+ .debug_abbrev  0x000007d2      0x329 build/firmware/application/command_parser.o
+ .debug_abbrev  0x00000afb      0x471 build/firmware/application/command_processor.o
+ .debug_abbrev  0x00000f6c      0x2b3 build/firmware/application/traffic_light.o
+ .debug_abbrev  0x0000121f      0x3ad build/firmware/platform/stm32/stm32f407_gpio.o
+ .debug_abbrev  0x000015cc      0x360 build/firmware/platform/stm32/stm32f407_uart.o
+ .debug_abbrev  0x0000192c      0x3e0 build/firmware/platform/stm32/systick_clock.o
+ .debug_abbrev  0x00001d0c      0x52f build/firmware/platform/stm32/uart_console.o
+ .debug_abbrev  0x0000223b      0x17a build/startup/startup_stm32f407.o
+ .debug_abbrev  0x000023b5       0xac /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(del_ops.o)
+ .debug_abbrev  0x00002461      0x19c /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(del_op.o)
+ .debug_abbrev  0x000025fd       0xb7 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-memset.o)
+ .debug_abbrev  0x000026b4       0x28 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-memcpy.o)
+ .debug_abbrev  0x000026dc      0x1cf /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-malloc.o)
+ .debug_abbrev  0x000028ab      0x149 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-impure.o)
+ .debug_abbrev  0x000029f4      0x24a /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-mallocr.o)
+ .debug_abbrev  0x00002c3e      0x249 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-freer.o)
+ .debug_abbrev  0x00002e87      0x192 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-mlock.o)
+ .debug_abbrev  0x00003019      0x1da /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-sbrkr.o)
+ .debug_abbrev  0x000031f3      0x1ee /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-reent.o)
+ .debug_abbrev  0x000033e1       0xa1 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a(sbrk.o)
+
+.debug_loclists
+                0x00000000     0x214e
+ .debug_loclists
+                0x00000000      0x6a7 build/src/main.o
+ .debug_loclists
+                0x000006a7      0x256 build/firmware/application/command_parser.o
+ .debug_loclists
+                0x000008fd      0x8ec build/firmware/application/command_processor.o
+ .debug_loclists
+                0x000011e9      0x34d build/firmware/application/traffic_light.o
+ .debug_loclists
+                0x00001536      0x1be build/firmware/platform/stm32/stm32f407_gpio.o
+ .debug_loclists
+                0x000016f4      0x1da build/firmware/platform/stm32/stm32f407_uart.o
+ .debug_loclists
+                0x000018ce       0xb3 build/firmware/platform/stm32/systick_clock.o
+ .debug_loclists
+                0x00001981       0x7d build/firmware/platform/stm32/uart_console.o
+ .debug_loclists
+                0x000019fe       0x30 build/startup/startup_stm32f407.o
+ .debug_loclists
+                0x00001a2e       0x29 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(del_ops.o)
+ .debug_loclists
+                0x00001a57       0x29 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(del_op.o)
+ .debug_loclists
+                0x00001a80      0x1c2 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-memset.o)
+ .debug_loclists
+                0x00001c42       0x4a /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-malloc.o)
+ .debug_loclists
+                0x00001c8c      0x263 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-mallocr.o)
+ .debug_loclists
+                0x00001eef      0x164 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-freer.o)
+ .debug_loclists
+                0x00002053       0x4b /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-sbrkr.o)
+ .debug_loclists
+                0x0000209e       0x80 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-reent.o)
+ .debug_loclists
+                0x0000211e       0x30 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a(sbrk.o)
+
+.debug_aranges  0x00000000      0x480
+ .debug_aranges
+                0x00000000       0xb8 build/src/main.o
+ .debug_aranges
+                0x000000b8       0x38 build/firmware/application/command_parser.o
+ .debug_aranges
+                0x000000f0       0x68 build/firmware/application/command_processor.o
+ .debug_aranges
+                0x00000158       0x70 build/firmware/application/traffic_light.o
+ .debug_aranges
+                0x000001c8       0x50 build/firmware/platform/stm32/stm32f407_gpio.o
+ .debug_aranges
+                0x00000218       0x60 build/firmware/platform/stm32/stm32f407_uart.o
+ .debug_aranges
+                0x00000278       0x40 build/firmware/platform/stm32/systick_clock.o
+ .debug_aranges
+                0x000002b8       0x28 build/firmware/platform/stm32/uart_console.o
+ .debug_aranges
+                0x000002e0       0x28 build/startup/startup_stm32f407.o
+ .debug_aranges
+                0x00000308       0x20 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(del_ops.o)
+ .debug_aranges
+                0x00000328       0x20 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(del_op.o)
+ .debug_aranges
+                0x00000348       0x20 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-memset.o)
+ .debug_aranges
+                0x00000368       0x20 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-memcpy.o)
+ .debug_aranges
+                0x00000388       0x20 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-malloc.o)
+ .debug_aranges
+                0x000003a8       0x18 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-impure.o)
+ .debug_aranges
+                0x000003c0       0x20 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-mallocr.o)
+ .debug_aranges
+                0x000003e0       0x20 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-freer.o)
+ .debug_aranges
+                0x00000400       0x20 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-mlock.o)
+ .debug_aranges
+                0x00000420       0x20 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-sbrkr.o)
+ .debug_aranges
+                0x00000440       0x20 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-reent.o)
+ .debug_aranges
+                0x00000460       0x20 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a(sbrk.o)
+
+.debug_rnglists
+                0x00000000      0x4cb
+ .debug_rnglists
+                0x00000000      0x1c7 build/src/main.o
+ .debug_rnglists
+                0x000001c7       0x62 build/firmware/application/command_parser.o
+ .debug_rnglists
+                0x00000229       0xfe build/firmware/application/command_processor.o
+ .debug_rnglists
+                0x00000327       0x5b build/firmware/application/traffic_light.o
+ .debug_rnglists
+                0x00000382       0x37 build/firmware/platform/stm32/stm32f407_gpio.o
+ .debug_rnglists
+                0x000003b9       0x4f build/firmware/platform/stm32/stm32f407_uart.o
+ .debug_rnglists
+                0x00000408       0x2b build/firmware/platform/stm32/systick_clock.o
+ .debug_rnglists
+                0x00000433       0x19 build/firmware/platform/stm32/uart_console.o
+ .debug_rnglists
+                0x0000044c       0x28 build/startup/startup_stm32f407.o
+ .debug_rnglists
+                0x00000474       0x13 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(del_ops.o)
+ .debug_rnglists
+                0x00000487       0x13 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(del_op.o)
+ .debug_rnglists
+                0x0000049a       0x1e /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-mallocr.o)
+ .debug_rnglists
+                0x000004b8       0x13 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-freer.o)
+
+.debug_line     0x00000000     0x3899
+ .debug_line    0x00000000      0xa73 build/src/main.o
+ .debug_line    0x00000a73      0x3cd build/firmware/application/command_parser.o
+ .debug_line    0x00000e40      0x65e build/firmware/application/command_processor.o
+ .debug_line    0x0000149e      0x3e3 build/firmware/application/traffic_light.o
+ .debug_line    0x00001881      0x2e4 build/firmware/platform/stm32/stm32f407_gpio.o
+ .debug_line    0x00001b65      0x3a1 build/firmware/platform/stm32/stm32f407_uart.o
+ .debug_line    0x00001f06      0x216 build/firmware/platform/stm32/systick_clock.o
+ .debug_line    0x0000211c      0x248 build/firmware/platform/stm32/uart_console.o
+ .debug_line    0x00002364      0x172 build/startup/startup_stm32f407.o
+ .debug_line    0x000024d6       0xcb /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(del_ops.o)
+ .debug_line    0x000025a1      0x157 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(del_op.o)
+ .debug_line    0x000026f8      0x1b6 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-memset.o)
+ .debug_line    0x000028ae       0xb9 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-memcpy.o)
+ .debug_line    0x00002967      0x16b /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-malloc.o)
+ .debug_line    0x00002ad2       0xe7 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-impure.o)
+ .debug_line    0x00002bb9      0x446 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-mallocr.o)
+ .debug_line    0x00002fff      0x2c3 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-freer.o)
+ .debug_line    0x000032c2      0x153 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-mlock.o)
+ .debug_line    0x00003415      0x193 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-sbrkr.o)
+ .debug_line    0x000035a8      0x27b /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-reent.o)
+ .debug_line    0x00003823       0x76 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a(sbrk.o)
+
+.debug_str      0x00000000     0x2f9c
+ .debug_str     0x00000000     0x2f9c build/src/main.o
+                               0x20fb (size before relaxing)
+ .debug_str     0x00002f9c      0x529 build/firmware/application/command_parser.o
+ .debug_str     0x00002f9c      0xab1 build/firmware/application/command_processor.o
+ .debug_str     0x00002f9c      0x6dc build/firmware/application/traffic_light.o
+ .debug_str     0x00002f9c      0x6c6 build/firmware/platform/stm32/stm32f407_gpio.o
+ .debug_str     0x00002f9c      0x712 build/firmware/platform/stm32/stm32f407_uart.o
+ .debug_str     0x00002f9c      0x693 build/firmware/platform/stm32/systick_clock.o
+ .debug_str     0x00002f9c      0xba3 build/firmware/platform/stm32/uart_console.o
+ .debug_str     0x00002f9c      0x3c6 build/startup/startup_stm32f407.o
+ .debug_str     0x00002f9c      0x17a /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(del_ops.o)
+ .debug_str     0x00002f9c      0x304 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(del_op.o)
+ .debug_str     0x00002f9c      0x1ad /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-memset.o)
+ .debug_str     0x00002f9c       0xac /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-memcpy.o)
+ .debug_str     0x00002f9c      0x4e1 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-malloc.o)
+ .debug_str     0x00002f9c      0x4bc /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-impure.o)
+ .debug_str     0x00002f9c      0x59d /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-mallocr.o)
+ .debug_str     0x00002f9c      0x53c /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-freer.o)
+ .debug_str     0x00002f9c      0x4da /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-mlock.o)
+ .debug_str     0x00002f9c      0x4c5 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-sbrkr.o)
+ .debug_str     0x00002f9c      0x4db /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-reent.o)
+ .debug_str     0x00002f9c      0x11d /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a(sbrk.o)
+
+.debug_frame    0x00000000      0x8c8
+ .debug_frame   0x00000000      0x1c0 build/src/main.o
+ .debug_frame   0x000001c0       0x7c build/firmware/application/command_parser.o
+ .debug_frame   0x0000023c      0x13c build/firmware/application/command_processor.o
+ .debug_frame   0x00000378      0x108 build/firmware/application/traffic_light.o
+ .debug_frame   0x00000480       0xac build/firmware/platform/stm32/stm32f407_gpio.o
+ .debug_frame   0x0000052c       0xbc build/firmware/platform/stm32/stm32f407_uart.o
+ .debug_frame   0x000005e8       0x68 build/firmware/platform/stm32/systick_clock.o
+ .debug_frame   0x00000650       0x3c build/firmware/platform/stm32/uart_console.o
+ .debug_frame   0x0000068c       0x3c build/startup/startup_stm32f407.o
+ .debug_frame   0x000006c8       0x20 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(del_ops.o)
+ .debug_frame   0x000006e8       0x20 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(del_op.o)
+ .debug_frame   0x00000708       0x2c /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-memset.o)
+ .debug_frame   0x00000734       0x30 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-malloc.o)
+ .debug_frame   0x00000764       0x50 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-mallocr.o)
+ .debug_frame   0x000007b4       0x58 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-freer.o)
+ .debug_frame   0x0000080c       0x30 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-mlock.o)
+ .debug_frame   0x0000083c       0x2c /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-sbrkr.o)
+ .debug_frame   0x00000868       0x40 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-reent.o)
+ .debug_frame   0x000008a8       0x20 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a(sbrk.o)
+
+.debug_line_str
+                0x00000000       0x99
+ .debug_line_str
+                0x00000000       0x99 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-memcpy.o)
