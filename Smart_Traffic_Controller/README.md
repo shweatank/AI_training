@@ -124,4 +124,4 @@ C++17, freestanding. No exceptions, no RTTI, no dynamic allocation
 recursion. Fixed-size statically allocated buffers throughout; all indices and
 lengths bounds-checked. Interrupt handlers are minimal (read byte, enqueue) and
 never parse or transmit. Strongly-typed `enum class`, `constexpr` over macros,
-and `const`-correct interfaces.
+and `const`-correct interfaces
